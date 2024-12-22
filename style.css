@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.all {
+    color: white;
+    width: 478px;
+}
+
+.inp-text input {
+    width: 331px;
+    height: 51px;
+    border-radius: 30px;
+    border: 3px solid blue;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    ;
+}
+
+.inp-text button {
+    width: 112px;
+    height: 51px;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #2A2A2A;
+    border: none;
+    color: white;
+}
+
+.inp-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 478px;
+    height: 134px;
+    border-radius: 32px;
+    opacity: 0.2px;
+    background-color: #2a2a2a;
+    box-shadow: 0px 5px 10px #202020;
+    margin-top: 20px;
+}
+
+.number button {
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 70px;
+    font-family: cursive;
+    background-color: #2A2A2A;
+    border: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.btn-plus:active {
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 70px;
+    font-family: cursive;
+    background-color: green;
+    border: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.btn-minus:active {
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 70px;
+    font-family: cursive;
+    background-color: red;
+    border: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.number h1{
+    font-size: 72px;
+    font-family: inter;
+}
+
+.inp-color {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 42px;
+    margin-top: 20px;
+}
